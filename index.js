@@ -2,7 +2,6 @@ const mongoose = require("mongoose");
 const app = require("./app");
 const port = process.env.PORT || 3977;
 const { API_VERSION, IP_SERVER, PORT_DB } = require("./config");
-const ipmongo = "mongodb+srv://user_10:AsimaticaSL@obrastroya.nlhdz.mongodb.net/test?retryWrites=true&w=majority";
 const ipmongolocal ="mongodb://${IP_SERVER}:${PORT_DB}/webpersonal";
 
 //mongoose.set("useFindAndModify", false);
